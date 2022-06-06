@@ -1,0 +1,65 @@
+<!DOCTYPE hmtl>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <h1 id="title">Personal Survey Form</h1>
+        <p id="description">Thank you for taking the time to let us get to know you a bit better</p>
+    </header>    
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name <input type="text" id="name" placeholder="Enter your name" maxlength="25" required></label>
+            <label id="email-label">Email <input type="email" id="email" placeholder="Enter your email" maxlength="50" required></label>
+            <label id="number-label">Age <span class="clue">(optional)</span> <input type="number" id="number" placeholder="Age" min="13" max="99" value="age"></label>
+        </fieldset>
+        
+        <fieldset>
+            <label>What is your favorite day of the week?</label>
+            <select id="dropdown">
+                <option disabled selected value>Day</option>
+                <option value="mon">Monday</option>
+                <option value="tue">Tuesday</option>
+                <option value="wed">Wednesday</option>
+                <option value="thu">Thursday</option>
+                <option value="fri">Friday</option>
+                <option value="sat">Saturday</option>
+                <option value="sun">Sunday</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <label>What season do u like the most?</label>
+            <label class="radio"><input type="radio" name="radio-option" value="summer" class="inline">Summer</label>
+            <label class="radio"><input type="radio" name="radio-option" value="autumn" class="inline">Autumn</label>
+            <label class="radio"><input type="radio" name="radio-option" value="winter" class="inline">Winter</label>
+            <label class="radio"><input type="radio" name="radio-option" value="spring" class="inline">Spring</label>
+        </fieldset>
+
+        <fieldset>
+            <label>What are some of your hobbies?</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="sport" class="inline">Sport</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="running" class="inline">Running</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="videogames" class="inline">Video Games</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="hiking" class="inline">Hiking</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="swimming" class="inline">Swimming</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="fishing" class="inline">Fishing</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="coding" class="inline">Coding</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="hiking" class="inline">Hiking</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="cooking" class="inline">Cooking</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="movies" class="inline">Movies</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="travelling" class="inline">Travelling</label>
+            <label class="check"><input type="checkbox" name="checkbox-option" value="travelling" class="inline">Other</label>
+        </fieldset>
+
+        <fieldset>
+            <label>Comments:</label>
+            <textarea rows="10" placeholder="Any comments/suggestions..."></textarea>
+        </fieldset>
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

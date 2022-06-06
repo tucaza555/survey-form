@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial Black', sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    color: white;
+    background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(background.jpg);
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    width: 700px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+h1, p {
+    margin: 0 0 10px 0;
+}
+
+form {
+    border: 2px solid black;
+    width: 700px;
+    margin: 10px auto;
+    background-color: rgba(27, 0, 88, 0.8);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    padding: 0 3px;
+}
+
+input {
+    width: 100%;
+    margin: 5px 0 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+fieldset, textarea {
+    margin: 10px;
+    padding: 20px;
+}
+
+fieldset {
+    padding: 5px 40px;
+    border: none;
+}
+
+fieldset:first-of-type {
+    padding: 20px 40px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    min-width: 99%;
+    max-height: 200px;
+}
+
+button {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 300px;
+}
+
+select {
+    width: 100%;
+    margin: 5px 0 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+button {
+    background-color: 	rgba(50,205,50, 0.815);
+    border: none;
+    color: white;
+    width: 80%;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.7em 0 0;
+    vertical-align: middle;
+}
+
+.clue {
+    margin: 0 0 0 0.25rem;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+    color: #e4e4e4;
+}
+
+.radio, .check {
+    font-size: 1.0rem;
+    font-family: 'Arial', sans-serif;
+}
+
+#dropdown {
+    color: #495057;
+    font-size: 1.1rem;
+}
+
+input[type=checkbox], input[type=radio] {
+    transform: scale(1.3);
+    margin: 7px 10px;
+}
